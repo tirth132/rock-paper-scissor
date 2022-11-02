@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Roboto&display=swap');
 
 body {
   margin: 0;
+  background-color: #D5EDED;
 }
 
 #navbar {
@@ -9,10 +10,45 @@ body {
   padding-bottom: 15px;
   border-bottom: 1px solid #47525E;
   text-align: center;
+  background-color: white;
 }
 
 .header-logo-text {
   font-size: 3.5rem;
   font-family: 'Bungee Shade', cursive;
   font-weight: bold;
+}
+
+.game-ui-container {
+  margin: 25px auto;
+  padding: 10px;
+  width: 600px;
+}
+
+.player-card-container {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+.player-card {
+  flex: 0 0 auto;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+
+.player-card span {
+  display: block;
+  font-family: Roboto, monospace;
+}
+
+.player-move-icon {
+  font-size: 4rem;
+  margin-bottom: 10px;
+}
+
+.player-name,
+.player-score {
+  font-size: 1.5rem;
 }

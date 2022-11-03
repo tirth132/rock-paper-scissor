@@ -56,7 +56,8 @@ body {
 .weapon-choose-text {
   text-align: center;
   color: black;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+  font-family: Roboto, monospace;
   margin-top: 25px;
 }
 

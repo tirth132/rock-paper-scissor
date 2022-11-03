@@ -52,3 +52,10 @@ body {
 .player-score {
   font-size: 1.5rem;
 }
+
+.weapon-choose-text {
+  text-align: center;
+  color: black;
+  font-size: 1.5rem;
+  margin-top: 25px;
+}

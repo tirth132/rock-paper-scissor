@@ -58,3 +58,31 @@ body {
   font-size: 1.5rem;
   margin-top: 25px;
 }
+
+.rps-buttons-container {
+  display: flex;
+  gap: 35px;
+  justify-content: center;
+  margin: 10px;
+}
+
+.rps-buttons-container button {
+  width: 100px;
+  height: 100px;
+  font-size: 62px;
+  background-color: #5DD951;
+  border-radius: 15px;
+  border: 2px solid #343F4B;
+}
+
+.rps-buttons-container button:hover {
+  transform: scale(1.03);
+}
+
+.rps-buttons-container button:active {
+  transform: scale(1.0);
+}
+
+#rock-button {
+  font-size: 52px;
+}

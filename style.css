@@ -22,7 +22,8 @@ body {
 .game-ui-container {
   margin: 25px auto;
   padding: 10px;
-  width: 600px;
+  max-width: 600px;
+  min-width: 400px;
 }
 
 .player-card-container {

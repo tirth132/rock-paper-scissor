@@ -53,12 +53,20 @@ body {
   font-size: 1.5rem;
 }
 
+.game-result-message {
+  text-align: center;
+  color: black;
+  font-size: 1.5rem;
+  font-family: Roboto, monospace;
+  margin-top: 25px;
+}
+
 .weapon-choose-text {
   text-align: center;
   color: black;
   font-size: 1.3rem;
   font-family: Roboto, monospace;
-  margin-top: 25px;
+  margin-top: 10px;
 }
 
 .rps-buttons-container {
